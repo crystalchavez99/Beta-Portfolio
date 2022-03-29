@@ -1,4 +1,6 @@
 import './Project.css';
+import length from '../images/length.jpg';
+import pokedex from '../images/pokedex.jpg';
 function Project() {
     return (
         <div className='project-section'>
@@ -14,14 +16,14 @@ function Project() {
                 <a href="https://kantopokedexbeta.netlify.app/" target={"_blank"} rel="noreferrer">
                 <div className='project'>
                     <h4>Kanto Pokedex</h4>
-                    <img src="https://crystalchavez.codes/images/pokedex.PNG" alt={"screenshot"}></img>
+                    <img src={pokedex} alt={"screenshot"}></img>
                     <p>Created a web application to display a pokedex on the first generation of Pokemon, using PokeAPI.</p>
                 </div>
                 </a>
                 <a href="https://lengthconverter.netlify.app/" target={"_blank"} rel="noreferrer">
                 <div className='project'>
                     <h4>LengthConverter.net</h4>
-                    <img src="https://crystalchavez.codes/images/length.PNG" alt={"screenshot"}></img>
+                    <img src={length} alt={"screenshot"}></img>
                     <p>A Metric Converter web application that focuses on Length Conversion. </p>
                 </div>
                 </a>
