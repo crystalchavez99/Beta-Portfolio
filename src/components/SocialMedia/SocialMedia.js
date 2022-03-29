@@ -3,9 +3,16 @@ import './SocialMedia.css';
 function SocialMedia(){
     return(
         <div className='nav-social'>
-           <FaLinkedin className='icons'/>
+            <a>
+                <FaLinkedin className='icons'/>
+            </a>
+            <a>
             <FaGithubSquare className='icons'/>
+            </a>
+            <a>
             <FaTwitterSquare className='icons'/>
+            </a>
+
         </div>
     )
 }
