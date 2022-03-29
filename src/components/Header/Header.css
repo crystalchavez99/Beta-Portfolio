@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 5rem 10rem;
+}
+.intro{
+    flex: 1;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 28px;
+}
+#occupation{
+    font-weight:900;
+    font-style: italic;
+}
+
+.profile{
+    line-height: 28px;
+
+}
+.profile > img{
+    width: 25.25rem;
+    height: 25.25rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    animation: bounce 0.5s;
+            animation-direction: alternate;
+            animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+            animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 15px, 0);
+    }
+}
