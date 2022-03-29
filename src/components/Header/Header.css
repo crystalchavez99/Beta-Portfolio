@@ -12,8 +12,12 @@
 #occupation{
     font-weight:900;
     font-style: italic;
+    transition: color 2s;
 }
 
+#occupation:hover{
+    color:#34d6b3;
+}
 .profile{
     line-height: 28px;
 
